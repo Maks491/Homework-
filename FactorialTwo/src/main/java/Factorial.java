@@ -1,5 +1,3 @@
-package FactorialFirst;
-
 public class Factorial {
     public static long getFactorial(long f) {
         if (f < 0) {
@@ -7,10 +5,12 @@ public class Factorial {
         }
         long result = 1;
         for (long i = 1; i <= f; i++) {
-            result = result * i;
+            result *= i;
         }
         return result;
     }
 
 
 }
+
+
